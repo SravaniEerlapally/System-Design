@@ -5,7 +5,7 @@ A) LLD stands for Low-Level-Design.It handles the "Code Structure" of the applic
       -Object/Entities [Users,Riders,Location, Notification, Payment]
       -Relationships [relationships b/w these objects users->riders, riders->loacation etc]
       -Data Security
-      -Hanle Millions of Users
+      -Handle Millions of Users
 
 2Q)What are the 3pillars of LLD?
 A)  i)Scalability  [How does our application runs when millions of users use this appliaction]
