@@ -1,0 +1,23 @@
+-------------------------------------------------------------------DSA is brain of an application then LLD is skeleton of application.--------------------------------------------------------------------------------------
+1Q)What is LLD?
+A) LLD stands for Low-Level-Design.It handles the "Code Structure" of the application.Building an application with multiple DSA Concepts i.e LLD.
+   Code Structure
+      -Object/Entities [Users,Riders,Location, Notification, Payment]
+      -Relationships [relationships b/w these objects users->riders, riders->loacation etc]
+      -Data Security
+      -Hanle Millions of Users
+
+2Q)What are the 3pillars of LLD?
+A)  i)Scalability  [How does our application runs when millions of users use this appliaction]
+   ii)Maintainability [-Code must be easily debuggable(minimal bugs,findable) and  
+                       -adding a new feature to existing application must not affect the older code,it should run as before and new feature must be easily integrated to our application]
+  iii)Reusabaility [it should easily plug & play (application independent), it should not be tightly-coupled]
+      Eg: Rider Mapping Algorithm- Zomato, Ola (this code can be reused in various applications)
+
+3Q)What is HLD?
+A) HLD stands for High-Level Design. It handles the "System Architecture" of the application.
+   System Architecture
+     -What TechStack do we use? [Java,Node]
+     -Which Databases do we use? [SQL,NoSQL]
+     -How Servers would be Scale?
+     -Cost Optmization
