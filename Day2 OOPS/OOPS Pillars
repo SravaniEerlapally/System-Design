@@ -15,28 +15,10 @@ ENCAPSULATION
    //variables-characters
    //Methods-Behaviour
  }
- Access Modifiers
-    ->Public
-    ->Private
-    ->Protected
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    ACCESS MODIFIERS
+1.Private(default)  => data & methods accessible inside the class       
+2.Public => data & methods accessible to everyone               
+3.Protected => data & methods accessible inside the class & to its derived class
 
 
