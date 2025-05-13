@@ -1,0 +1,64 @@
+HISTORY OF PROGRAMMING:
+
+  1.Machine Language: 
+    Our code will be in binary code that interacts with CPU and gets executed by CPU.
+    code look like: 0100101 100101
+          -prone to error
+          -tedious(hard to write this code)
+          -Not Scalable(large application with machine coding)
+
+  2.Assembly Level Language
+    code look like:Mov A 61H
+           -prone to error
+           -Not Scalable
+           -Tedious
+
+  3.Procedural Programming
+    Introduecd
+         -Functions
+         -Loops
+         -Blocks(if-else, switch)
+    Except Large Scale Applications 
+    Procedural Programming is like a recipe book, executes code based on set of instructions(-Do this, -then do this).
+   Eg: C Language
+
+ 4.OOPS
+    -Real World Modelling
+    -Data Security
+    -Scalabale
+    -Reusable
+
+OBJECTS
+  -characteristics
+  -Behaviour
+Eg: Car
+    Characters - Engine, Brand, Model, Wheels
+    Functions  - Start(), Stop(), gearShift(), accelerate(), brake()
+
+Procedural Programming
+  CAR
+    String brand
+    String model
+    Bool isEngineOn
+
+    start(){
+      //
+    }
+    stop(){
+      //
+    }
+    gareShift(){
+
+    }
+
+Owner owns the Car
+
+  OWNER
+    string name,
+    void drive(brand,model){
+          start();
+          gearShift();
+          accelerate();
+
+    }
+Owner owns the Car-----------OOPS
