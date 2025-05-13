@@ -8,9 +8,17 @@ ABSTRACTION
   - Hides unnecessary details from a user, and showcase only what is necessary.
 Eg: TV underhood don't know how it runs, but we interface i.e remote
 
+ENCAPSULATION
+  - Like a capsule has everything inside it. Same concept i.e characters and behaviour are inside the class
 
-
-
+ class Car{
+   //variables-characters
+   //Methods-Behaviour
+ }
+ Access Modifiers
+    ->Public
+    ->Private
+    ->Protected
 
 
 
