@@ -2,13 +2,14 @@ HISTORY OF PROGRAMMING:
 
   1.Machine Language: 
     Our code will be in binary code that interacts with CPU and gets executed by CPU.
-    code look like: 0100101 100101
+    code: 0100101 100101
           -prone to error
           -tedious(hard to write this code)
           -Not Scalable(large application with machine coding)
 
   2.Assembly Level Language
-    code look like:Mov A 61H
+    uses mnemonics to represent the operations.
+    code:Mov A 61H
            -prone to error
            -Not Scalable
            -Tedious
