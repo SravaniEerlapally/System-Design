@@ -28,6 +28,9 @@ HISTORY OF PROGRAMMING:
     -Scalabale
     -Reusable
 
+ OBJECTS=> are Entities in the real world
+ Classes=> are Blueprint of these entities 
+
 OBJECTS
   -characteristics
   -Behaviour
@@ -62,3 +65,23 @@ Owner owns the Car
 
     }
 Owner owns the Car-----------OOPS
+
+class Car{
+  string brand;
+  string model;
+  bool isEngineOn;
+
+ void start(){}
+ void stope(){
+
+ }
+}
+
+class Owner{
+  Car car;
+  string name;
+
+  void drive(){
+     
+   }
+}
