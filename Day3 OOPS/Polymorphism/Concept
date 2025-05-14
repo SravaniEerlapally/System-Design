@@ -1,9 +1,39 @@
          Animal
        /    |   \
-   Duck  Tiger  Human  
+   Duck  Tiger  Human   run()=>same behaviour performs differently
 
 
                       Polymorphism
                      /            \
  Dynamic Polymorphism           Static Polymorphism
   -Method Overriding              -Method Overloading
+
+Polymorphism
+  One stimulus->different responses based on situation/object
+
+Method Overriding:(Run Time)
+  When a child class has a method with the same name and same parameters as in its parent class, and it provides its own version of the method.
+
+Method Overloading:(Compile Time)
+   Multiple methods with the same name exist but have different parameters in the same class.
+
+
+Q)Define Operator Overloading?
+A)The Concept of defining operators to work with objects and structure variables is known as operator overloading.
+   ->The + operator, when used with values of type int, returns their sum. 
+   ->But when used with objects of a user-defined type, it gives an error.We define the behavior of the + operator to work with objects as well.
+
+Q)Why Operator Overloading is not supported in Java?
+A) ->Java does not support Operator Overloading to keep the "Language Simple", "Prevent Misuse", and "Ensure Code Readability". 
+  ->Java’s design prioritizes clarity and consistency, which is why operators in Java have a fixed, well-defined meaning.
+  How does it do then?  //Method Overloading
+    ->Instead of operator overloading, Java encourages the use of Method overloading to achieve similar functionality in a more straightforward way. 
+    ->This keeps Java code easier to read and maintain, especially in large projects.
+
+Q)Why Operator Overloading is supported in Python?
+A)Operator Overloading in Python is done using special functions or magic methods.
+  ->Python internally calls the __add__() method. This same principle applies to other operators such as -, *, ==, etc.
+  By Overloading Operators:
+    ->Custom classes (e.g., Vector, Complex, Matrix) can support natural expressions like v1 + v2
+    ->This makes code cleaner, more intuitive, and similar to how operations are done with basic types
+
