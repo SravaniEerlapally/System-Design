@@ -1,0 +1,45 @@
+            Car   (Parent)          Characteristics: brand, model, isEngineOn, CurrentSpeed || Behaviour: StartEngine(),StopEngine(),accelerate(),break()
+          /     \
+Manual Car       Electric Car
+(Child)            (Child)
+Characteristics    Characteristics
+  currentGear         batteryPercentage
+Behaviour          Behaviour
+  shiftGear()         chargeBattery()
+
+=======>Parent Object-mein jo hot hai woh sab child mein hote hai
+=======>Child Object-mein jo Parent Object mai hai sab kuch Car mein methods and characteristics hai, dubara define karneki jaruri nahi hai &  hote woh specific hote hai
+
+class car{
+
+}
+
+class ManualCar : public Car{
+   currentGear=0;
+    shiftGear(){
+
+    }
+}
+
+classElectricCar : public Car{
+   batteryPercentage
+   chargeBattery(){ 
+
+    }
+}
+
+Protected Modifier: it is same like private but it can be used by child object
+
+  Car                                  class ManualCar : public Car
+   |                                     /           |
+ManualCar                           Public          Private           Protected
+                            Public:Public        Public:Private      Public:Protected
+                            Private:Private      Private:No access   Private:No access
+                            Protected:Protected  Protected:Private   Protected:Protected
+
+**Mostly in real-world we do Publically Inheritent only bcoz 
+   -Inheritant is mainly for to access all from parent and add on specific variables or methods to child based on use case.
+
+
+
+
