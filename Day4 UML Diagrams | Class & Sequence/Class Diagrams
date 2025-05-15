@@ -1,0 +1,123 @@
+UML Diagrams
+
+You have an idea to make application.
+To express how we can make application by 2 approaches:  1.Paragraphs
+                                                          2.Diagram
+
+                                 UML Diagrams
+                               /               \
+                         Structural          Behavioural
+                         (Static)             (Dynamic)
+                    -> Class Diagram        -> Sequence Diagram
+
+In Structural & Behavioural there are 7 diagrams in each.
+But mostly used in real-world are 2.
+
+                               ==============
+                              | Class Diagram |
+                                =============
+1.Class Structure                                      
+                                                       <<abstract>>
+                                                     ----------------
+class Car{                                           |      Car      | Class Name
+   string brand;                                     -----------------
+   string model;                                     | brand:String  |
+   int engineCC;                                     | model:String  | Characters/variables
+                                                     | engineCC:int  |
+  void startEngine(){                                |               |
+    //                                               |               |
+  }                                                  |               |
+  void stopEngine(){                                 -----------------
+      //                                             |startEngine():void |
+  }                                                  |              |
+  void acelerate(){                                  |              |
+      //                                             |              |  Behaviours/Methods
+  }                                                  |              |
+  void brake(){                                      |              |
+                                                     |              |
+  }                                                  |              |
+}                                                    ----------------
+
+
+
+Classes-> 1.Abstract Class 2.Concrete Class.
+
+Access Modifiers
+-------------------------------------------------------------
+|          |within Class| From ChildClass| Outside the Class|
+------------------------------------------------------------
+|Public    |    ✔       |       ✔       |        ✔         | ---> +
+|Protected |    ✔       |       ✔       |        ✘         | ---> #
+|Private   |    ✔       |       ✘       |        ✘         | ---> -
+-------------------------------------------------------------
+
+
+
+2.Association/Connection
+                                  Association
+                                /             \
+                    Class Association       Object Association
+                          ||                      |
+                          \/             ---------------------
+                      Inheritance        |         |         |
+                                      Simple   Aggregation   Composition
+
+
+                                      Inheritance
+                                        -is a relation
+                                        "--▷" used to resemble the relation
+class A{
+  method1();
+}
+class B : Public A{                                  Cow -▷ Animal
+  method2();
+}
+int main(){
+  B *b = new B();
+    b->method1();
+    b->method2();
+}
+
+                                        Composition
+                                          -has a relation
+
+Simple Association
+ "->" represents simple association
+Eg: Arjun->House
+    Arjun has/lives a/in house.
+
+Aggregation
+"-◇" represents aggregation association
+
+                 Sofa -◇ Room ◇- Bed
+                          ◇         
+                           \
+                            Chair
+
+Sofa, Bed, Chair are part of room. But all these can exist individually.
+
+Composition
+  "-◆" represents composition association
+
+          wheels -◆ Chair ◆- Arms
+                      ◆
+                     /
+                  seat
+
+Chair can make with composition of wheels,Arms,seat.
+
+class A{
+  method1();
+}
+class B{
+  A* a;
+     B() {a = new A()};
+  method2();
+}
+int main(){
+   B* b = new B();
+   b->method2();
+   b->a->method1();
+}
+
+
