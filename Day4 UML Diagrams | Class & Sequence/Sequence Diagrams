@@ -1,0 +1,57 @@
+                           ==================
+                           |Sequence Diagram|
+                           ==================
+    A ------------------>B
+      <------------------
+Sequence Diagram- Tells the interaction/communication between A and B
+            
+1.Represent diagrams of classes as 🄰 🄱 🄲 🄳
+
+2.Lifeline - tells till what time that object exists in application.
+
+3.Activation Bar - tells at what particular time the objects are active.
+          When active then objects can receive and send messages
+          When inactive then it can't receive nor send any messages
+
+4.Messages
+ /     \
+Async   Sync
+
+Synchronous- wait for the response of message.
+ sync messages  - denoted with closed triangle arrow. straiightline------------▷
+ response messages - denoted with dotted closed triangle arrow. ................▷
+         🄰               🄱                                                         
+         |               |
+         |               |
+         |               |
+         |               |        
+         |               |
+
+
+Asynchronous- won't wait for the response of message
+   denoted with open triangle arrow.--------------->
+
+Create Message
+Destroy Message
+
+Lost Message
+Found Message
+
+   ATM Transaction Flow
+1.Person----->ATM
+ Acc,Amount
+2.ATM---->Transaction
+
+
+Things to remember before drawing Sequence Diagram:
+==================================================
+1.Use-Case
+2.Objects (Involved ->ATM,User,Transaction,Account,Cash Dispenser)
+3.Draw sequence diagram
+    ATM    User
+     |      |
+     |      |
+
+alt---> if-else
+option---> if
+loop---> for/while
