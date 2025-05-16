@@ -28,13 +28,7 @@ Eg: TV remote has only one task i.e to control only TV not other electronic devi
     Having multiple electronic devices control in only one its hard to design and hard to control.
  So Ek Class Ek Kaam
 
-
-
-
-
-
-
-
-
-
-
+Confusion Question/Thought:
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+- In SRP there can have multiple methods in a class.
+  But the MainRule: is that the all methods/attributes that are created in class must be for to fulfill that calss's i.e one particular responsiblity only.
