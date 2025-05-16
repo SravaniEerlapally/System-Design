@@ -1,0 +1,5 @@
+Open-Close Principle:
+Definition: A Class should be open for extension but close for modification.
+   Existing code we should not change, only we can add to it 
+
+
