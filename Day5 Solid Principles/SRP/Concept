@@ -1,0 +1,40 @@
+When there are many classes its hard to maiantain, so we follow solid principles to manage this.
+
+Real World Example
+--> Suppose in a house there are multiple electric wires connection are passing from one location. 
+    When there is an issue with any particular wire its hard to find that and replace that wire.
+
+-->In Programing also, we have many classes its hard to solve/identify a bug when there is an issue .
+
+Problems We Face When SOLID PRINCIPLES Are Not Followed Correctly
+=================================================================
+1.Maintainability [when we add any feature to our applicataion it should be easily integrated without much code change,then it must not create bugs when integrated ]
+2.Readability 
+3.Many Bugs are created in our application.
+
+SOLID Design Principle
+S:::> Single Responsibilty Principle (SRP)
+O::>  Open-Close Principle (OCP)
+L::>  Liskov Substitution Principle(LSP)
+I::>  Interface Segregation Principle(ISP)
+D::>  Dependency Inversion Principle(DSP)
+
+
+Single Responsibilty Principle (SRP)
+====================================
+Definition: A Class should have only one reason to change. All Attributes and Methods in Class are done only to handle only one responsiblity of class only.
+
+Eg: TV remote has only one task i.e to control only TV not other electronic devices such as Fridge,AC etc....
+    Having multiple electronic devices control in only one its hard to design and hard to control.
+ So Ek Class Ek Kaam
+
+
+
+
+
+
+
+
+
+
+
