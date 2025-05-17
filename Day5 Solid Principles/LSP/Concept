@@ -1,0 +1,2 @@
+Liskov Substitution Principle
+Definition: Subclasses should be substituable for their Base Classes.
